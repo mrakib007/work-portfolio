@@ -2,6 +2,7 @@ import React from 'react';
 import react from '../../../asset/react.png';
 import node from '../../../asset/node.png';
 import mern from '../../../asset/mern.png';
+import Service from './Service';
 
 const Services = () => {
     const services = [
@@ -25,8 +26,15 @@ const Services = () => {
         }
     ]
     return (
-        <div>
-            
+        <div className='my-10 container mx-auto'> 
+            <h2 className='text-xl m-5'>Works I Do</h2>
+            <div className="flex">
+            {
+                services.map(service=>(
+                    <Service key={service.id} service={service}></Service>
+                ))
+            }
+            </div>
         </div>
     );
 };
