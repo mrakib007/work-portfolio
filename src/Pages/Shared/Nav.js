@@ -6,18 +6,18 @@ const Nav = () => {
     <div>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Link className="btn btn-ghost normal-case text-xl">daisyUI</Link>
+          <Link className="btn btn-ghost normal-case text-xl">Rakib Hasan</Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link>Item 1</Link>
+              <Link>Home</Link>
             </li>
             <li>
-              <Link>Item 2</Link>
+              <Link>About</Link>
             </li>
             <li>
-              <Link>Item 2</Link>
+              <Link>Works</Link>
             </li>
           </ul>
         </div>

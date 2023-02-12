@@ -1,5 +1,5 @@
 import React from "react";
-import brandImg from "../../../asset/IMG_8772.jpg";
+import brandImg from "../../../asset/IMG_8657.jpg";
 const HomePage = () => {
   return (
     <div>
