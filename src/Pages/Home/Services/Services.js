@@ -26,9 +26,10 @@ const Services = () => {
         }
     ]
     return (
-        <div className='my-10 container mx-auto'> 
-            <h2 className='text-xl m-5'>Works I Do</h2>
-            <div className="flex">
+        <div className='my-10'> 
+            <h2 className='text-3xl m-5 text-center'>Works I Do</h2>
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-1 gap-4">
+            {/* <div className="lg:flex flex-basis-1 justify-center gap-8"> */}
             {
                 services.map(service=>(
                     <Service key={service.id} service={service}></Service>
