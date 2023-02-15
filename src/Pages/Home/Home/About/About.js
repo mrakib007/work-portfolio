@@ -14,8 +14,8 @@ const About = () => {
             <p>
                 Fast forward today, I am a junior level React developer. I have good knowledge about Css frameworks and some javascript libraries too.
                 I am currently focusing on learning backend properly. So than I can become a MERN stack developer.
-                
             </p>
+            
           </div>
         </div>
       </div>
