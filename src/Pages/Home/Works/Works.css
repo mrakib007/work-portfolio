@@ -1,0 +1,13 @@
+/* .parent{
+    position: relative;
+    display: flex;
+}
+.parent img{
+    max-width: 60%;
+    margin-left: 410px;
+}
+.child{
+    position: absolute;
+    width: 40%;
+    margin-left: 100px;
+} */
