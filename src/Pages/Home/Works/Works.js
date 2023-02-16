@@ -1,12 +1,12 @@
-import React from 'react';
-import doctor from '../../../asset/doctor.png';
-import './Works.css';
+import React from "react";
+import doctor from "../../../asset/doctor.png";
+import "./Works.css";
 
 const Works = () => {
-    return (
-        <div>
-            <h2 className='text-4xl font-bold'>Some Works of Mine</h2>
-            {/* <div className='parent flex-row-reverse'>
+  return (
+    <div className="">
+      <h2 className="text-4xl font-bold mx-2">Some Works of Mine</h2>
+      {/* <div className='parent flex-row-reverse'>
             <div className=''>
                 <img src={doctor} alt="" srcset="" />
             </div>
@@ -22,55 +22,81 @@ const Works = () => {
             </div>
             </div> */}
 
-<div className="grid gap-4 grid-cols-2">
-
-<div className="hero lg:h-96 rounded-lg" style={{ backgroundImage: `url(${doctor})` }}>
-  <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-
-<div className="hero lg:h-96 rounded-lg" style={{ backgroundImage: `url(${doctor})` }}>
-  <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-
-<div className="hero lg:h-96 rounded-lg" style={{ backgroundImage: `url(${doctor})` }}>
-  <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-
-<div className="hero lg:h-96 rounded-lg" style={{ backgroundImage: `url(${doctor})` }}>
-  <div className="hero-overlay bg-opacity-60"></div>
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-
-</div>
+      <div className="grid gap-4 lg:mx-0 mx-2 lg:grid-cols-2 grid-cols-1">
+        <div
+          className="hero lg:h-96 rounded-lg"
+          style={{ backgroundImage: `url(${doctor})` }}
+        >
+          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-content text-center text-neutral-content">
+            <div className="max-w-md">
+              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <p className="mb-5">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+              <button className="btn btn-primary">Get Started</button>
+            </div>
+          </div>
         </div>
-    );
+
+        <div
+          className="hero lg:h-96 rounded-lg"
+          style={{ backgroundImage: `url(${doctor})` }}
+        >
+          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-content text-center text-neutral-content">
+            <div className="max-w-md">
+              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <p className="mb-5">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+              <button className="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="hero lg:h-96 rounded-lg"
+          style={{ backgroundImage: `url(${doctor})` }}
+        >
+          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-content text-center text-neutral-content">
+            <div className="max-w-md">
+              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <p className="mb-5">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+              <button className="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="hero lg:h-96 rounded-lg"
+          style={{ backgroundImage: `url(${doctor})` }}
+        >
+          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-content text-center text-neutral-content">
+            <div className="max-w-md">
+              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <p className="mb-5">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+              <button className="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Works;
