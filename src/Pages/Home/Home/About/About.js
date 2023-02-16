@@ -4,9 +4,9 @@ const About = () => {
     return (
         <div className="hero height">
         <div className="hero-content md:flex-row-reverse flex-col lg:flex-row-reverse">
-          <img src={brandImg} alt="" className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={brandImg} alt="" className="lg:max-w-sm w-96 rounded-lg shadow-2xl" />
           <div>
-            <h1 className="text-5xl font-bold">About Me</h1>
+            <h1 className="text-4xl font-bold">About Me</h1>
             <p className="py-6">Hello! My name is Md. Rakibul Hasan and I love creating websites that lives on the internet
             My interest in web development started in 2019 when I was an undergraduate student. 
             I just loved the idea of writing codes and seeing the output beforehand.

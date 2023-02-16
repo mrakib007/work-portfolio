@@ -9,6 +9,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { Link } from "react-scroll";
 
 const Services = () => {
   const services = [
@@ -35,8 +36,8 @@ const Services = () => {
     },
   ];
   return (
-    <div className="my-10">
-      <h2 className="text-3xl m-5 text-center">Services That I Offer</h2>
+    <div className="my-10" id="works">
+      <h2 className="text-4xl font-bold my-5 "> Services That I Offer</h2>
       <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-1 gap-4">
         {/* <div className="lg:flex flex-basis-1 justify-center gap-8"> */}
         {
@@ -90,7 +91,7 @@ const Services = () => {
         <div className="basis-1/2">
           <img
             src={mokeup}
-            className="hidden lg:block md:hidden"
+            className="hidden lg:block md:hidden rounded"
             alt=""
             srcset=""
           />
