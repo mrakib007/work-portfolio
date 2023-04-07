@@ -3,7 +3,7 @@ import brandImg from '../../../../asset/IMG_8657.jpg';
 const About = () => {
     return (
         <div className="hero height">
-        <div className="hero-content md:flex-row-reverse flex-col lg:flex-row-reverse">
+        <div className="hero-content md:flex-row-reverse flex-col lg:flex-row-reverse" id='aboutSection'>
           <img src={brandImg} alt="" className="lg:max-w-sm w-96 rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-4xl font-bold">About Me</h1>

@@ -18,7 +18,8 @@ const Nav = () => {
               <Link id="home">Home</Link>
             </li>
             <li>
-              <Link id="about">About</Link>
+              {/* <Link id="about">About</Link> */}
+              <a href="#aboutSection">About</a>
             </li>
             <li>
               <Link href="#works">Works</Link>
