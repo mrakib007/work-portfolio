@@ -1,11 +1,13 @@
 import React from "react";
 import doctor from "../../../asset/doctor.png";
 import "./Works.css";
+import mobilePhone from '../../../asset/mobilePhone.png';
+import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
     <div className="">
-      <h2 className="text-4xl font-bold mx-2">Some Works of Mine</h2>
+      <h2 className="text-4xl font-bold mx-2 my-10">Some Works of Mine</h2>
       {/* <div className='parent flex-row-reverse'>
             <div className=''>
                 <img src={doctor} alt="" srcset="" />
@@ -30,18 +32,35 @@ const Works = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+              <h1 className="mb-5 text-5xl font-bold">Doctors Portal</h1>
               <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+               A web application for Doctor's appointments and easy payment.
+               Patients can easily find the doctor they need. And admins can add doctors and services.
               </p>
-              <button className="btn btn-primary">Get Started</button>
+              <Link to={'https://doctors-portal-client-60bd8.web.app/'} target="_blank"><button className="btn btn-primary">Live Link</button></Link>
             </div>
           </div>
         </div>
 
         <div
+          className="hero lg:h-96 rounded-lg"
+          style={{ backgroundImage: `url(${mobilePhone})` }}
+        >
+          <div className="hero-overlay bg-opacity-60"></div>
+          <div className="hero-content text-center text-neutral-content">
+            <div className="max-w-md">
+              <h1 className="mb-5 text-5xl font-bold">Mobile-Bikri-Korai</h1>
+              <p className="mb-5">
+                A website for buying and selling old and used phones.
+                Your one click place to advertise your used phones or buy the phone you have always wanted.
+                Admin,Buyer and Seller type of user facilities are present and easy to use.
+              </p>
+              <Link to={'https://mobile-bikri-korai.web.app/'} target="_blank"><button className="btn btn-primary">Live Link</button></Link>
+            </div>
+          </div>
+        </div>
+
+        {/* <div
           className="hero lg:h-96 rounded-lg"
           style={{ backgroundImage: `url(${doctor})` }}
         >
@@ -57,9 +76,9 @@ const Works = () => {
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div
+        {/* <div
           className="hero lg:h-96 rounded-lg"
           style={{ backgroundImage: `url(${doctor})` }}
         >
@@ -75,25 +94,11 @@ const Works = () => {
               <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
-        </div>
+        </div> */}
+      </div>
 
-        <div
-          className="hero lg:h-96 rounded-lg"
-          style={{ backgroundImage: `url(${doctor})` }}
-        >
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-              <p className="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
-              <button className="btn btn-primary">Get Started</button>
-            </div>
-          </div>
-        </div>
+      <div className="flex justify-center">
+        <Link className="btn btn-secondary my-5 mx-auto" to={'https://github.com/mrakib007?tab=repositories'} target="_blank">See More</Link>
       </div>
     </div>
   );

@@ -15,14 +15,14 @@ const Nav = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link id="home">Home</Link>
+              <Link href="#home">Home</Link>
             </li>
             <li>
               {/* <Link id="about">About</Link> */}
               <a href="#aboutSection">About</a>
             </li>
             <li>
-              <Link href="#works">Works</Link>
+              <a href="#works">Works</a>
             </li>
           </ul>
         </div>
