@@ -2,6 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 // import brandImg from "../../../asset/IMG_8657.jpg";
 import "./Homepage.css";
+import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const HomePage = () => {
               frontend development. <br></br>I am also interested in backend
               too. My main goal is to make top level web applications.
             </p>
-            <button className="btn btn-primary">Download Resume</button>
+            <Link to={'https://drive.google.com/file/d/1yUky5Yc2pzDzmAq6khTswFlpk6eHCLzW/view'} target="_blank"><button className="btn btn-primary">Download Resume</button></Link>
           </div>
         </div>
       </div>
